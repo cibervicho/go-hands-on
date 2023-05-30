@@ -61,3 +61,23 @@ from Todd McCleod.
       - `GOOS=linux go build -o main-linux main.go`
 
 </details>
+<details>
+<summary>Hands-on exercise #13</summary>
+
+  - Using the code you wrote in the previous hands-on exercise:
+    - Make sure your `$GOPATH/bin` is part of your `$PATH` envariable
+    - Look in the `$GOPATH/bin`
+      - Launch another terminal
+      - See the `GOPATH` environment variable with either of these:
+        - `go env`
+        - `go env GOPATH`
+      - Navigate to the `$GOPATH/bin` folder
+      - `ls -la`
+    - `go install` your program (on the first/other terminal)
+      - Look at the executable `$GOPATH/bin`
+    - Run the executable in the `$GOPATH/bin`
+    - Remove the executable in the `$GOPATH/bin`
+      - If you accidentally delet everything, you will need to reinstall your tooling in VScode
+      - If you messed it all up, reinstall go.
+
+</details>
