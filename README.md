@@ -5,7 +5,7 @@ Repo created to practice Go-lang from the Udemy course
 from Todd McCleod.
 
 <details>
-<summary>**Hands-on exercise #9**</summary>
+<summary>Hands-on exercise #9</summary>
 
   - Create the following variables with the following scopes:
     - Package level
@@ -17,5 +17,17 @@ from Todd McCleod.
       - Inside `func main`
       - Use the short declaration operator
   - Use the variable in `func main`
+
+<summary>Hands-on exercise #10</summary>
+
+  - Use the terminal to make a Go workspace
+    - `mkdir <name>`
+    - `cd <name>`
+    - `go mod init <some_name>`
+  - Write a **hello world** program
+    - `vim main.go`
+    - Write Go code
+  - Run your program
+    - `go run main.go`
 
 </details>
