@@ -49,3 +49,15 @@ from Todd McCleod.
       - `./<name of the executable>`
 
 </details>
+<details>
+<summary>Hands-on exercise #12</summary>
+
+  - Using the code you wrote in the previous hands-on exercise:
+    - Build your program for Windows
+      - `GOOS=windows go build -o main-windows.exe main.go`
+    - Build your program for Mac
+      - `GOOS=darwin go build -o main-mac main.go`
+    - Build your program for Linux
+      - `GOOS=linux go build -o main-linux main.go`
+
+</details>
