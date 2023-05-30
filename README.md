@@ -18,6 +18,9 @@ from Todd McCleod.
       - Use the short declaration operator
   - Use the variable in `func main`
 
+
+</details>
+<details>
 <summary>Hands-on exercise #10</summary>
 
   - Use the terminal to make a Go workspace
