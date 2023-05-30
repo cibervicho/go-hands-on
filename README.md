@@ -34,3 +34,18 @@ from Todd McCleod.
     - `go run main.go`
 
 </details>
+<details>
+<summary>Hands-on exercise #11</summary>
+
+  - Using the code you wrote in the previous hands-on exercise:
+    - Look at the contents in the folder of your module
+      - `ls -la`
+    - Build your program
+      - Any of these:
+        - `go build main.go`
+        - `go build .`
+        - `go build ./...`
+    - Run your executable:
+      - `./<name of the executable>`
+
+</details>
