@@ -102,3 +102,23 @@ from Todd McCleod.
     - Inspect your `go.mod` file
 
 </details>
+<details>
+<summary>Hands-on exercise #16</summary>
+
+  - Create a github repo for your code
+  - Push your code
+    - `git add -A`
+    - `git commit`
+      - Add a comment significant to your commit
+    - `git push`
+  - Add a version tag to your code of `v1.0.0`
+    - `git tag`
+    - `git tag v1.0.0`
+    - `git push origin --tags`
+  - Add a `temp.txt` file to your code
+  - Push your code again
+  - Add a version tag to your code of `v1.1.0`
+  - Look at your version in github
+  - Optional: delete your repository
+
+</details>
