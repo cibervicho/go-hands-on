@@ -81,3 +81,15 @@ from Todd McCleod.
       - If you messed it all up, reinstall go.
 
 </details>
+<details>
+<summary>Hands-on exercise #14</summary>
+
+  - Using the code from the previous hands-on exercise:
+    - Use a function from the package found at **github.com/GoesToEleven/puppy**
+      - `go get github.com/GoesToEleven/puppy`
+    - Inspect your `go.mod` file
+    - Run `go mod tidy`
+    - What does `go mod tidy` do?
+      - https://go.dev/ref/mod#go-mod-tidy
+
+</details>
