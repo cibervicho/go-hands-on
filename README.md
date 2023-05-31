@@ -93,3 +93,12 @@ from Todd McCleod.
       - https://go.dev/ref/mod#go-mod-tidy
 
 </details>
+<details>
+<summary>Hands-on exercise #15</summary>
+
+  - Using the code from the previous hands-on exercise:
+    - Use a function from the package found at **github.com/GoesToEleven/puppy** but make your code depend on v1.2.0
+      - `go get github.com/GoesToEleven/puppy@v1.2.0`
+    - Inspect your `go.mod` file
+
+</details>
