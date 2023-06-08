@@ -122,3 +122,63 @@ from Todd McCleod.
   - Optional: delete your repository
 
 </details>
+<details>
+<summary>Hands-on exercise #17</summary>
+
+  - At the terminal:
+    - go to your go workspace where you wrote your code
+    - remove the folder you created to write your go code
+      - rm -rf <folder name>
+
+</details>
+<details>
+<summary>Hands-on exercise #18</summary>
+
+  - This hands-on exercise has a text file associated with it.
+  - When I ran a SHA-256 checksum on this text file, I got this hash:
+    - `7c6c8937b2a120af15849db05c9f46326761e0eec852a2e973b1e0b6acd59a01`
+  - Download the text file associated with this hands-on exercise. Run a SHA-256 checksum on it. Do you get the same hash?
+    - shasum -a 256 `/path/to/file`
+      - `.` is the current directory
+      - if you're in the directory with the file
+        - `shasum -a 256 ./file`
+  - change the file by one character, then run SHA-256 again
+    - `9be13f9173f28ce3dd89c72aad7f5b0549a0641feb869509c7f96e8dc8b6ea8e`
+
+</details>
+<details>
+<summary>Hands-on exercise #19</summary>
+
+  - create a program that uses both SEQUENTIAL and CONDITIONAL control flow. Your program should do the following
+    - create a random int between 0 and 250
+    - store the value of that int in a variable with the identifier of x
+      - `func Intn(n int) int`
+        - `rand.Intn()`
+    - print out the name and value of the variable
+  - use an if statement to do the following
+    - if the value is between 0 and 100
+      - print between 0 and 100
+    - if the value is between 101 and 200
+      - print between 101 and 200
+    - if the value is between 201 and 250
+      - print between 201 and 250
+
+</details>
+<details>
+<summary>Hands-on exercise #20</summary>
+
+  - Modify the previous program to use one of these conditional logic statements
+    - a switch statement
+    - a select statement
+  - Which of the above conditional logic statements did you choose and why?
+
+</details>
+<details>
+<summary>Hands-on exercise #21</summary>
+
+  - Modify the previous program to have your program use the init func to print
+    - "This is where initialization for my program occurs"
+      - read about the init function in effective go
+    - What does niladic mean?
+
+</details>
