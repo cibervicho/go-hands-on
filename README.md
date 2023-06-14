@@ -196,3 +196,17 @@ from Todd McCleod.
     - none of the previous cases were met
 
 </details>
+<details>
+<summary>Hands-on exercise #23</summary>
+
+  - Modify the previous program to use a switch statement
+
+</details>
+<details>
+<summary>Hands-on exercise #24</summary>
+
+  - There are two parts ot this hands on exercise
+    - Create a program that has a loop that prints every number from 0 to 99
+    - Modify the program from the previous hands on exercise to run 100 times
+
+</details>
